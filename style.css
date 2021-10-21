@@ -48,7 +48,7 @@ div article section {
   flex-direction: column;
   width: 480px;
   padding: 1rem 0 0 1rem;
-  overflow: scroll;
+  overflow-y: scroll;
   height: 300px;
 }
 
@@ -65,4 +65,9 @@ h3 {
 section button {
   display: flex;
   flex-direction: column;
+}
+
+div button {
+  margin: 0 auto;
+  padding: 10px;
 }
